@@ -16,16 +16,6 @@ body {
   z-index: 1000;
 }
 
-.project-tile a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-tile a:hover {
-  text-decoration: underline;
-}
-
 #navbar a {
   color: #000;
   margin: 0 15px;
@@ -47,13 +37,12 @@ section {
   text-align: center;
 }
 
-h1 {
-  color: #ffd700;
+h1, h2 {
+  color: #FFD700; /* Yellow */
 }
 
 h2 {
-  color: #ffd700;
-  border-bottom: 2px solid #ffd700;
+  border-bottom: 2px solid #FFD700; /* Yellow underline */
   padding-bottom: 5px;
 }
 
